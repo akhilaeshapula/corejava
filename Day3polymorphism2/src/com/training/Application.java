@@ -11,7 +11,9 @@ public class Application {
 		bill.printFees(sharma);
 		bill.printFees(rajesh);
 		
-
+		WrapperAndStatic obj= new WrapperAndStatic();
+		obj.parse("1234");
 	}
+	
 
 }

@@ -9,7 +9,7 @@ public class Application {
 		if (selected == null){
 			System.out.println("Wrong option");
 		}else{
-		saiRents.calcRent(selected);
+		System.out.println(saiRents.calcRent(selected));
 		}
 	}
 }
